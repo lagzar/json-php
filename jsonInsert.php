@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
     $inc++;
 
     $json_array = json_encode($arr);
-    file_put_contents('PATH TO JSON FILE', $json_array);
+    file_put_contents('PATH TO SAVE JSON FILE', $json_array); // directory path
     //echo $json_array;
 }
 ?>
